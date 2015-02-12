@@ -1,0 +1,47 @@
+{
+  "name": "pancakes-sample",
+  "version": "0.0.1",
+  "description": "Sample project for pancakes",
+  "main": "start.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gethuman/pancakes-sample.git"
+  },
+  "keywords": [
+    "javascript",
+    "pancakes"
+  ],
+  "author": "Jeff Whelpley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gethuman/pancakes-sample/issues"
+  },
+  "homepage": "https://github.com/gethuman/pancakes-sample",
+  "dependencies": {
+    "continuation-local-storage": "^3.1.2",
+    "lodash": "^3.1.0",
+    "nconf": "^0.7.1",
+    "pancakes": "^0.1.44",
+    "pancakes-angular": "^0.1.50",
+    "pancakes-hapi": "^0.1.46",
+    "pancakes-mongo": "0.0.6",
+    "pancakes-recipe": "0.0.14",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "batter": "0.0.14",
+    "gulp": "^3.8.11",
+    "gulp-pancakes": "^0.1.41",
+    "gulp-util": "^3.0.3",
+    "pancakes-syrup": "0.0.11",
+    "taste": "^0.1.46"
+  },
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "engines": {
+    "node": "0.10.33",
+    "npm": "1.4.28"
+  }
+}
