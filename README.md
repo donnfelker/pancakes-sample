@@ -1,12 +1,8 @@
-Backstage
+Pancakes Sample App
 =====================
 
-Welcome to Backstage!
-
-This repo contains all the code for the Backstage app and mobile interface. I will just be
-pasting in misc info here as I am developing this app just to keep it safe and will refactor
-into a more coherent document after we go live.
-
+The purpose of this project is to show how you can use Pancakes outside of GetHuman.
+This is a work in progress and is not quite ready yet.
 
 
 
