@@ -1,6 +1,6 @@
 {
   "name": "pancakes-sample",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sample project for pancakes",
   "main": "start.js",
   "repository": {
@@ -18,25 +18,35 @@
   },
   "homepage": "https://github.com/gethuman/pancakes-sample",
   "dependencies": {
+    "boom": "^2.6.1",
     "continuation-local-storage": "^3.1.2",
-    "lodash": "^3.1.0",
+    "funnelweb": "0.0.1",
+    "hapi": "^8.2.0",
+    "hapi-auth-cookie": "^2.0.0",
+    "lodash": "^3.2.0",
+    "lru-cache": "^2.5.0",
+    "mongoose": "^3.8.23",
     "nconf": "^0.7.1",
-    "pancakes": "^0.1.44",
+    "pancakes": "^0.1.45",
     "pancakes-angular": "^0.1.50",
-    "pancakes-hapi": "^0.1.46",
-    "pancakes-mongo": "0.0.6",
-    "pancakes-recipe": "0.0.14",
-    "q": "^1.1.2"
+    "pancakes-hapi": "^0.1.47",
+    "pancakes-mongo": "0.0.7",
+    "pancakes-recipe": "0.0.15",
+    "q": "^1.1.2",
+    "request": "^2.53.0"
   },
   "devDependencies": {
-    "batter": "0.0.14",
+    "angular": "^1.3.13",
+    "angular-ui-router": "^0.2.13",
+    "batter": "0.0.15",
+    "bootstrap": "^3.3.2",
     "gulp": "^3.8.11",
     "gulp-pancakes": "^0.1.41",
     "gulp-util": "^3.0.3",
-    "pancakes-syrup": "0.0.11",
-    "taste": "^0.1.46"
+    "jquery": "^2.1.3",
+    "pancakes-syrup": "0.0.12",
+    "taste": "^0.1.48"
   },
-  "main": "start.js",
   "scripts": {
     "start": "node start.js"
   },

@@ -7,7 +7,7 @@
 var nconf = require('nconf');
 
 module.exports = {
-    projectPrefix:      'ps',
+    projectPrefix:      'spl',
     env:                process.env.NODE_ENV || 'dev',
     baseHost:           'dev.foo.com',                 // base host name for all hosts (all other host names built on this)
     i18nDebug:          false,
@@ -21,7 +21,7 @@ module.exports = {
     useSSL:             false,
     api: {
         useSSL:         false,
-        port:           nconf.get('API_PORT') || nconf.get('PORT') || 8889,
+        port:           nconf.get('API_PORT') || nconf.get('PORT') || 8888,
         host:           'api.foo.com',
         version:        'v1'
     },
@@ -29,7 +29,7 @@ module.exports = {
         foo:             ''
     },
     webserver: {
-        port:           nconf.get('WEB_PORT') || nconf.get('PORT') || 8182,
+        port:           nconf.get('WEB_PORT') || nconf.get('PORT') || 8181,
         defaultApp:     'foo'
     },
     logging: {
@@ -49,7 +49,11 @@ module.exports = {
         archive:        nconf.get('MONGO_ARCHIVE')
     },
     security: {
-        siteId:         nconf.get('SITE_ID'),
-        siteSecret:     nconf.get('SITE_SECRET')
+        facebookAppId:      nconf.get('FACEBOOK_APP_ID'),
+        facebookAppSecret:  nconf.get('FACEBOOK_APP_SECRET'),
+        googleAppId:        nconf.get('GOOGLE_APP_ID'),
+        googleAppSecret:    nconf.get('GOOGLE_APP_SECRET'),
+        siteId:             nconf.get('SITE_ID'),
+        siteSecret:         nconf.get('SITE_SECRET')
     }
 };

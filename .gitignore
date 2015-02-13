@@ -4,7 +4,6 @@ node_modules
 bower_components
 build
 test/coverage
-config/env.js
 newrelic_agent.log
 coverage.html
 dist

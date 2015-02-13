@@ -19,9 +19,9 @@ module.exports = {
     clientPlugin:       PancakesAngular,
     serverPlugin:       PancakesHapi,
     modulePlugins:      [originalRecipe],
-    componentPrefix:    'ps',
+    componentPrefix:    'spl',
     pluginOptions: {    // these are used for the pancakes plugin to gen client side code
-        prefix:         'ps',
+        prefix:         'spl',
         clientType:     'ng',
         ngType:         'factory',
         transformer:    'basic',
@@ -32,12 +32,15 @@ module.exports = {
         }
     },
     adapterMap: {
-        persist:        'mongo'
+        persist:        'mongo',
+        cache:          'local',
+        restapi:        'generic'
     },
     adapters: {
         mongo:          MongoAdapter
     },
     serverAliases: {
+        lruCache:       'lru-cache',
         cls:            'continuation-local-storage',
         mongo:          'pancakes-mongo'
     }
