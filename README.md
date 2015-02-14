@@ -23,6 +23,9 @@ sudo npm install -g gulp
 npm install
 gulp devrefresh
 
+* Start Mongo
+mongod
+
 * now you can run the web and api by running the following in two separate consoles:
 
 node start api
